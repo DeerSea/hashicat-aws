@@ -1,6 +1,7 @@
 module "s3-bucket" {
-  source  = "https://github.com/DeerSea/terraform-aws-s3-bucket"
+  source  = "app.terraform.io/BVT/s3-bucket/aws"
   version = "2.8.0"
+
 
   bucket_prefix = var.prefix
   acl    = "private"
