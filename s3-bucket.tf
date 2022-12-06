@@ -1,5 +1,5 @@
 module "s3-bucket" {
-  source  = "app.terraform.io/BVT/s3-bucket/aws"
+  source  = "https://github.com/DeerSea/terraform-aws-s3-bucket"
   version = "2.8.0"
 
   bucket_prefix = var.prefix
